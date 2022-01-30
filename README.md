@@ -1,4 +1,4 @@
-# Bulma Blocks 🔴🟢🟡🟠🔵
+# Bulma Blocks 
 
 <img src="https://img.shields.io/badge/version-1.0.0-brightgreen?style=for-the-square&logo=appveyor">   <img src="https://img.shields.io/badge/open--source-project-red?style=for-the-square">   <img src="https://img.shields.io/badge/open--source-%E2%9D%A4%EF%B8%8F-%2300d1b2">
 <hr>
