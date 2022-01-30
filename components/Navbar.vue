@@ -83,7 +83,7 @@
         class="mx-3"
         id="content-mobile"
         @click="isPreviewLayout"
-        v-if="isPreviewBtn"
+        v-if="isPreviewBtn && this.uiType != 'Home'"
         icon
         depressed
         style="color: white"
