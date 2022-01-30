@@ -184,13 +184,17 @@
         </div>
       </div>
 
-      <v-btn class="mx-3" id="content-desktop" rounded depressed>
-        <GithubSvg />
-        &nbsp;GitHub
-      </v-btn>
-      <v-btn icon right style="color: white" id="content-mobile">
-        <GithubSvg />
-      </v-btn>
+      <a href="https://github.com/thetejasmagade/Bulma-Blocks" target="_blank">
+        <v-btn class="mx-3" id="content-desktop" rounded depressed>
+          <GithubSvg />
+          &nbsp;GitHub
+        </v-btn>
+      </a>
+      <a href="https://github.com/thetejasmagade/Bulma-Blocks" target="_blank">
+        <v-btn icon right style="color: white" id="content-mobile">
+          <GithubSvg />
+        </v-btn>
+      </a>
     </v-app-bar>
     <div class="mobileButtons" id="content-mobile" v-if="this.uiType != 'Home'">
       <div>
