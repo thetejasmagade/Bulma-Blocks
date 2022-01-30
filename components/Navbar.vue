@@ -96,7 +96,7 @@
         </svg>
       </v-btn>
 
-      <v-snackbar v-model="snackbar" :timeout="timeout" bottom="true">
+      <v-snackbar v-model="snackbar" :timeout="timeout" :bottom=true>
         <h4 class="headline">Code Copied! 🔥</h4>
 
         <template v-slot:action="{ attrs }">
