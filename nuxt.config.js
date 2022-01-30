@@ -14,11 +14,22 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
-      { name: 'theme-color', content: '#000000' }
+      { name: 'theme-color', content: '#edf2f7' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' }
     ]
+  },
+
+  seo: {
+    baseUrl: 'https://bulmablocks.netlify.app/',
+    name: 'Bulma Blocks',
+    templateTitle: 'Bulma Blocks - Ready to use Blocks',
+    description: "Bulma Blocks is a free and open-source ready to use Blocks",
+    keywords: 'nuxt, bulma, bulma css, bulma blocks, css, tailwind, bulma-blocks, html, open-source, nuxt-js, vue, vuejs',
+    canonical: 'auto',
+    isForcedTrailingSlash: false,
+    author: 'Tejas Magade',
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
