@@ -484,7 +484,7 @@ export default {
   background-color: lightgrey;
   border: none;
   border-radius: 100px;
-  width: 47%;
+  width: 194px;
   padding-left: 2px;
   position: fixed;
   bottom: 10px;
