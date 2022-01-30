@@ -7,14 +7,15 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - bulma-blocks',
+    titleTemplate: '%s - Bulma Blocks',
     title: 'Bulma Blocks - Open-Source Ready to use Blocks',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Bulma Blocks is a free and open-source ready to use Blocks' },
       { name: 'format-detection', content: 'telephone=no' },
-      { name: 'theme-color', content: '#edf2f7' }
+      { name: 'theme-color', content: '#edf2f7' },
+      { property: 'og:image', content: './favicon.svg'}
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' }
